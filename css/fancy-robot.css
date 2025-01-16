@@ -1,13 +1,36 @@
 .robot-container {
+  width: 500px;
+  height: 500px;
+  margin: 100px auto;
 }
 
 .robot-face-shape {
+  position: static;
+  width: 250px;
+  height: 200px;
+  border: 1px solid;
+  background-color: gray;
+  border: 2px solid;
+  border-radius: 5%;
+  margin: 50px auto;
 }
 
 .robot-eye-left {
+  position: static;
+  left: 50px;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(black, cyan);
+  border-radius: 50%;
 }
 
 .robot-eye-right {
+  position: relative;
+  left: 200px;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(black, black, cyan);
+  border-radius: 50%;
 }
 
 .robot-ear-left {
